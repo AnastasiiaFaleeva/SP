@@ -8,7 +8,7 @@
 number_day = int(input('Введите цифру дня недели - '))
 
 if 1 <= number_day <= 5:
-    print(number_day, '-> Ксожалению, это рабочий день ((((')
+    print(number_day, '-> Ксожалению, это рабочий день (((')
 elif number_day == 6 or number_day == 7:
     print(number_day, ' -> Ура! это выходной день! ')
 else:

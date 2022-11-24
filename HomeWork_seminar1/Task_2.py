@@ -9,5 +9,5 @@ z = int(input('Введите значение второго предиката
 if (not (x or y or z)) == (not x) and (not y) and (not z):
       print('Утверждение истинно ')
 else:
-      print('Утверждение ложно ')
+      print('Утверждение ложно')
 

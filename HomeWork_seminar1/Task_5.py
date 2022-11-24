@@ -12,4 +12,4 @@ xB = int(input('Введите координату х точки B '))
 yB = int(input('Введите координату y точки B '))
 
 distans2D = math.sqrt(((xB - xA) ** 2) + ((yB - yA) ** 2))
-print('Расстояние между точками А и В = ', round(distans2D, 3))
+print('Расстояние между точками А и В =  ', round(distans2D, 3))
