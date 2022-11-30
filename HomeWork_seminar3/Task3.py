@@ -6,8 +6,8 @@ import random
 from random import randint
 
 amount_elements = int(input('Введите количество элементов списка - '))
-diapason_start = float(input('Диапазон случайных чисел от - '))
-diapason_end = float(input('Диапазон случайных чисел до - '))
+diapason_start = int(input('Диапазон случайных чисел от - '))
+diapason_end = int(input('Диапазон случайных чисел до - '))
 list = []
 for i in range(amount_elements):
     list.append(round(random.uniform(diapason_start, diapason_end), 1))
