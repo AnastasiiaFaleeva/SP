@@ -15,13 +15,8 @@ print('Список из случайных чисел - ', list)
 
 new_list = []
 for i in list:
-    if (i*10)%10 != 0:
-      new_list.append (int(i*10)%10)
+    if (i * 10) % 10 != 0:
+        new_list.append(int(i * 10) % 10)
 print('Список из дробной части элементов - ', new_list)
 
-print('Разница между макс и мин значением дробной части - ', (max(new_list) - min(new_list))/10)
-
-
-
-
-
+print('Разница между макс и мин значением дробной части - ', (max(new_list) - min(new_list)) / 10)
