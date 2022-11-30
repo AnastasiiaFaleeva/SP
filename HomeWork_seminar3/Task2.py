@@ -5,11 +5,11 @@
 # [2, 3, 5, 6] => [12, 15]
 from random import randint
 
-amount_list_elements = int(input('Введите количество элементов списка - '))
+amount_elements = int(input('Введите количество элементов списка - '))
 diapason_start = int(input('Диапазон случайных чисел от - '))
 diapason_end = int(input('Диапазон случайных чисел до - '))
 list = []
-for i in range(amount_list_elements):
+for i in range(amount_elements):
     list.append(randint(diapason_start, diapason_end))
 print('Список из случайных чисел - ', list)
 
@@ -17,6 +17,6 @@ new_list = []
 for i in range(len(list)//2):
         new_list.append(list[i] * list[len(list) - i -1])
 
-if amount_list_elements % 2 != 0:
+if amount_elements % 2 != 0:
     new_list.append(list[len(list)//2] * list[len(list)//2])
-print(new_list)
+print('Список произведений пар элементов - ', new_list)
