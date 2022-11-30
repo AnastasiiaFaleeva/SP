@@ -15,4 +15,5 @@ def SumNumbers(number):
         summa = summa + int(i)
     return summa
 
+
 print('Сумма цифр в числе', num, '=', SumNumbers(num))
